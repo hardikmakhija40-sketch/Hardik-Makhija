@@ -44,7 +44,17 @@
 
 ## 🧭 About
 
-This repository is a growing collection of **web and Java projects** built while interning at SGW — covering everything from authentication flows and dashboards to a real-time chatbot UI and a family tree visualizer.
+👋 Hi, I'm **Hardik** — currently interning at **SGW**, where I'm turning classroom knowledge into real, working software.
+
+This repository is my learning log in code form. Each project here — an auth flow, a management system, a database schema — was a chance to apply what I know and stretch it further by building something real. It's less a polished portfolio and more a running record of how I think and build as a developer.
+
+💡 **What I'm focused on right now:**
+- Building full-stack apps end-to-end — from UI in **React.js** to APIs in **Node.js/Express.js**
+- Working with **MongoDB (NoSQL)** and **MySQL (SQL)** for data storage, choosing the right one for the job
+- Strengthening core programming fundamentals through **Java** and **Python**
+- Writing cleaner, more maintainable code with every project
+
+🎯 **The goal:** by the end of this internship, turn "I built this to learn" into "I can build this for real."
 
 ---
 
@@ -69,12 +79,37 @@ This repository is a growing collection of **web and Java projects** built while
 
 
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
 
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+
+
+
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+
+
+
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+
+
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+
+
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+
+
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 
 
@@ -118,10 +153,8 @@ App for tracking and managing personal/business expenses.
 <summary><b>🌐 Web Pages & Features</b></summary>
 <br>
 
-- 🔐 `login.html` / `signup.html` — Authentication UI
-- 💬 `chatbot.html` — Interactive chatbot interface
+- 🔐 `login.html` / `signup.html` — Authentication UI with dedicated CSS/JS
 - 📝 `blog.html` / `article.js` — Blog/article page
-- 🌳 `familytreeproject.html` — Family tree visualizer
 - 🧾 `registrationform.html` — Registration form
 - 💼 `portfolio.html` — Portfolio page
 - 🛍️ `productpage.html` — Product display page
@@ -146,10 +179,15 @@ App for tracking and managing personal/business expenses.
 ## 🚀 Getting Started
 
 \`\`\`bash
+# Clone the repository
 git clone https://github.com/nbtechsgw-del/Hardik-Makhija.git
 cd Hardik-Makhija
+
+# Install dependencies (for JS-based components)
 npm install
 
+# Open any .html file directly in your browser, or
+# compile/run Java files individually:
 javac StudentManager.java
 java StudentManager
 \`\`\`
@@ -163,8 +201,8 @@ Hardik-Makhija/
 ├── CPRMS/
 ├── coaching-center-portal/
 ├── expense-app/
-├── *.java
-├── *.html / *.css / *.js
+├── *.java          # Standalone Java console apps
+├── *.html / *.css / *.js   # Individual web pages & assets
 ├── package.json
 └── README.md
 \`\`\`
